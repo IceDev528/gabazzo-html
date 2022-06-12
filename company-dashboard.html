@@ -1,0 +1,1171 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>		
+		<!--Metatags-->
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>		
+		<meta http-equiv="X-UA-Compatble" content="ie=edge"/>		
+		<!--Website Title-->
+		<title>Company Dashboard</title>
+		<!--Calling Favicon-->
+		<link rel="icon" href="images/favicon.png" />
+		<link rel="shortcut icon" href="images/favicon.ico" />		
+		<!--FontAwesome CDN-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+		<!--Normalize v8.0.1 CSS FILE-->
+		<link rel="stylesheet" href="css/normalize.css"/>
+		<!--Bootstrap v4.6.0 CSS FILE-->
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>		
+		<link rel="stylesheet" href="css/pignose.calendar.min.css"/>
+		<!--Owl Carousel CSS File-->
+		<link rel="stylesheet" href="css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="css/owl.theme.default.min.css" />
+		<!--Lightcase CSS File-->
+		<link rel="stylesheet" href="css/lightcase.css"/>
+		<!--Fonts Are Loads From Here-->
+		<link rel="stylesheet" href="fonts/fonts.css"/>	
+		<!--Gabazzo Common CSS File-->
+		<link rel="stylesheet" href="css/gabazzo.common.css" />
+		<!--Main Stylesheet-->
+		<link rel="stylesheet" href="style.css"/>		
+		<!--Stylesheet For The Responsiveness-->
+		<link rel="stylesheet" href="css/responsive.css"/>
+		<!--Stylesheet For The Night Mode-->
+		<link rel="stylesheet" href="css/night.mode.css"/>
+		
+	</head>
+	
+	<body data-spy="scroll" data-target="#fixedMenu" data-offset="80">
+		
+		<!--===== Markup For "Header" Starts From Here =====-->
+		<header class="dashboard_header_wrap">
+			<div class="container">
+				<div class="dashboard_header">
+					<div class="logo_mode_wrap grid_item">
+						<div class="logo_mode_switching">
+							<ul>
+								<li>
+									<a href="index-members-layout.html" class="navbar-brand">
+										<img src="images/gabazzo_logo_white.png" class="img-fluid white_logo" alt="">
+									</a>
+								</li>
+								<li>
+									<a class="mode_icon" href="javascript:void(0)">
+										<img src="images/mode_icon_night.png" class="img-fluid night_icon" title="" data-toggle="tooltip" alt="" data-original-title="Night Mode">
+										<img src="images/mode_icon_day.png" class="img-fluid day_icon" title="" data-toggle="tooltip" alt="" data-original-title="Day Mode">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="preview_page grid_item">
+						<a href="javascript:void(0)">Preview Page</a>
+					</div>
+
+					<div class="account_msg">
+						<ul>
+							<li class="nav-item desktop_only"><a href="#" class="nav-link">Messages</a></li>
+							<li class="nav-item">
+								<a href="javascript:void(0)" class="nav-link profile_pic_link membersProfilePic">
+									<div class="profile_pic">
+										<img src="images/Chucks_Logo.png" class="img-fluid" alt="" />
+										<span class="activity_status online_status"></span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--===== Markup For "Header" Ends Here =====-->
+		
+		
+		
+		<!--===== Markup For "Company Profile Link" Starts From Here =====-->
+		<div class="membersProfileLinks">
+			<div class="dismissMembersProfileLinks">
+				<i class="fa fa-times"></i>
+			</div>
+
+			<div class="members_profile_pic">
+				<a href="javascript:void(0)"><img src="images/Chucks_Logo.png" class="img-fluid" alt="" /></a>
+				<h6>chucks mechanic and detail</h6>
+			</div>
+
+			<div class="profile_links">
+				<ul>
+					<li class="active"><i class="fas fa-tachometer-alt"></i> <a href="javascript:void(0)">View Dashboard</a></li>
+					<li class="mobile_only"><i class="fas fa-envelope"></i> <a href="javascript:void(0)">Messages</a></li>
+					<li><i class="fas fa-cog"></i> <a href="javascript:void(0)">Settings</a></li>
+					<li><i class="fas fa-power-off"></i> <a href="javascript:void(0)">Logout</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--===== Markup For "Company Profile Link" Ends Here =====-->
+		
+		
+		<!--===== Markup For "Dashboard Banner" Starts From Here =====-->
+		<section class="dashboard_banner">
+			<div class="overlay">
+				<div class="container">
+					<div class="contents">
+						<h2>Welcome back!</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--===== Markup For "Dashboard Banner" Ends Here =====-->
+
+
+		<!--===== Markup For "Fixed Menu" Starts From Here =====-->
+		<div class="dash_fixed_menu_wrap">
+			<div class="container">
+				<div class="dash_fixed_menu">
+					<div class="page_links grid_item">
+						<ul class="nav" id="fixedMenu">
+							<li class="nav-item"><a class="nav-link" href="#dashboardGeneralInfo">General Info</a></li>
+							<li class="nav-item"><a class="nav-link" href="#dashboardHome">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="#dashboardServices">Services</a></li>
+							<li class="nav-item"><a class="nav-link" href="#dashboardPortfolio">Portfolio</a></li>
+							<li class="nav-item"><a class="nav-link" href="#dashboardReviews">Reviews</a></li>
+						</ul>
+					</div>
+
+					<div class="preview_page grid_item">
+						<a href="javascript:void(0)">Preview Page</a>
+					</div>
+
+					<div class="account_msg">
+						<ul>
+							<li class="nav-item"><a href="#" class="nav-link">Messages</a></li>
+							<li class="nav-item">
+								<a href="javascript:void(0)" class="nav-link profile_pic_link membersProfilePic">
+									<div class="profile_pic">
+										<img src="images/Chucks_Logo.png" class="img-fluid" alt="" />
+										<span class="activity_status online_status"></span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--===== Markup For "Fixed Menu" Ends Here =====-->
+		
+
+		<!--===== Markup For "Dashboard Footer" Starts From Here =====-->
+		<section class="dashboard_save_changes_wrap">
+			<div class="container">
+				<div class="dashboard_save_changes">
+					<div class="texts grid_item">
+						<p><b>*</b> Click <span class="bold_texts">Save Changes</span> to update latest added detail (s).</p>
+					</div>
+					<div class="save_changes_button grid_item">
+						<button class="btn gbtn">Save Changes</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--===== Markup For "Dashboard Footer" Ends Here =====-->
+
+
+		<!--===== Markup For "Dashboard Menu" Starts From Here =====-->
+		<div class="dashboard_menu">
+			<div class="container">
+				<ul>
+					<li class="active"><a href="javascript:void(0)">General Info</a></li>
+					<li><a href="#dashboardHome">Home</a></li>
+					<li><a href="#dashboardServices">Services</a></li>
+					<li><a href="#dashboardPortfolio">Portfolio</a></li>
+					<li><a href="#dashboardReviews">Reviews</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--===== Markup For "Dashboard Menu" Ends Here =====-->
+		
+		
+		<!--===== Markup For "General Info" Starts From Here =====-->
+		<section class="general_info_wrap" id="dashboardGeneralInfo">
+			<div class="container">
+				<div class="general_info">
+					<div class="company_logo">
+						<div class="heading">
+							<h4>Company Logo</h4>
+						</div>
+						<div class="change_logo_wrap">
+							<div class="uploaded_logo">
+								<img src="images/Chucks_Logo.png" class="img-fluid" alt="" />
+							</div>
+							<div class="change_logo">
+								<div class="attach_file">
+									<label class="attachment gbtn">
+										<span>Change Logo</span>
+										<input class="file_attachment" id="" name="" type="file">
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="company_information">
+						<div class="heading">
+							<h4>Company Information</h4>
+						</div>
+	
+						<div class="form-group">
+							<label for="">Address:</label>
+							<input type="text" value="1748 North Kedvale Avenue, Chicago, Illinois 60639, United States" class="form-control">
+						</div>
+	
+						<div class="form_row">
+							<div class="form-group">
+								<label for="">Phone Number:</label>
+								<input type="tel" value="+1 (773) 474-1126" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="">Website:</label>
+								<input type="url" value="http://www.meriqpainting.com/" class="form-control">
+							</div>
+						</div>
+	
+						<div class="form_row">
+							<div class="form-group">
+								<label for="">Languages:</label>
+								<select name="" id="" class="form-control">
+									<option value="">English</option>
+									<option value="">Español</option>
+									<option value="">Français</option>
+									<option value="">Pусский</option>
+									<option value="">Polskie</option>
+									<option value="">Deutsch</option>
+									<option value="">Italiano</option>
+									<option value="">中國人</option>
+									<option value="">Português</option>
+									<option value="">한국인</option>
+									<option value="">日本</option>
+								</select>
+							</div>
+	
+							<div class="form-group">
+								<label for="">Type of Entity:</label>
+								<select name="" id="" class="form-control">
+									<option value="">Limited Liability Company (LLC)</option>
+									<option value="">Limited Liability Partnership (LLP)</option>
+									<option value="">C- Corporation</option>
+									<option value="">S- Corporation</option>
+									<option value="">Non Profit</option>
+									<option value="">Partnership</option>
+									<option value="">Sole Proprietorship</option>
+								</select>
+							</div>
+						</div>
+	
+						<div class="form-group mb-0">
+							<label for="">Total Employees:</label>
+							<input type="number" value="123" class="form-control">
+						</div>
+					</div>
+	
+					<div class="calendar_part">
+						<div class="calendar"></div>
+					</div>
+				</div>
+
+				<div class="working_hours">
+					<div class="table-responsive">
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>Day</th>
+									<th>From</th>
+									<th>To</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Monday</td>
+									<td><input type="time" value="06:00" class="form-control"></td>
+									<td><input type="time" value="22:00" class="form-control"></td>
+								</tr>
+								<tr>
+									<td>Tuesday</td>
+									<td><input type="time" value="06:00" class="form-control"></td>
+									<td><input type="time" value="22:00" class="form-control"></td>
+								</tr>
+								<tr>
+									<td>Wednesday</td>
+									<td><input type="time" value="06:00" class="form-control"></td>
+									<td><input type="time" value="22:00" class="form-control"></td>
+								</tr>
+								<tr>
+									<td>Thursday</td>
+									<td><input type="time" value="06:00" class="form-control"></td>
+									<td><input type="time" value="22:00" class="form-control"></td>
+								</tr>
+								<tr>
+									<td>Friday</td>
+									<td><input type="time" value="06:00" class="form-control"></td>
+									<td><input type="time" value="22:00" class="form-control"></td>
+								</tr>
+								<tr>
+									<td>Saturday</td>
+									<td><input type="time" value="06:00" class="form-control"></td>
+									<td><input type="time" value="22:00" class="form-control"></td>
+								</tr>
+								<tr>
+									<td>Sunday</td>
+									<td><input type="time" value="06:00" class="form-control"></td>
+									<td><input type="time" value="22:00" class="form-control"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--===== Markup For "General Info" Ends Here =====-->
+
+
+		<!--===== Markup For "Business Documents" Starts From Here =====-->
+		<div class="business_doc_wrap">
+			<div class="container">
+				<div class="heading">
+					<h3>Business Documents</h3>
+				</div>
+				<div class="info_texts">
+					<p>It is okay if you do not have neither of these. Gabazzo gives up to 60 days to acquire a state License and insurance. this will secure your company from potential warnings/lawsuits from your local jurisdiction. if you do not know how to acquire either, please contact us at support@gabazzo.com</p>
+				</div>
+
+				<div class="business_docs">
+					<div class="single_documents">
+						<h5>State License</h5>
+						<div class="upload_documents">
+							<a href="javascript:void(0)" data-target="#uploadLicensedCertificate" data-toggle="modal"><i class="fas fa-plus"></i></a>
+						</div>
+					</div>
+
+					<div class="single_documents">
+						<h5>Insurance</h5>
+						<div class="upload_documents">
+							<a href="javascript:void(0)" data-target="#uploadInsuranceCertificate" data-toggle="modal"><i class="fas fa-plus"></i></a>
+						</div>
+					</div>
+
+					<div class="single_documents">
+						<h5>Bonded</h5>
+						<div class="upload_documents">
+							<a href="javascript:void(0)" data-target="#uploadBondedCertificate" data-toggle="modal"><i class="fas fa-plus"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--===== Markup For "Business Documents" Ends Here =====-->
+
+
+		<!--===== Markup For "Home" Starts From Here =====-->
+		<section class="dash_home_wrap" id="dashboardHome">
+			<div class="container">
+				<div class="dash_main_heading">
+					<h2>Home</h2>
+				</div>
+
+				<div class="dashboard_home">
+					<div class="about_wrap">
+						<div class="heading">
+							<h4>About</h4>
+						</div>
+						<div class="description_box">
+							<textarea name="" id="" cols="30" rows="5" placeholder="Type in what your company is about here..." class="form-control"></textarea>
+							<div class="character_indicator">
+								<h6>0/3000</h6>
+							</div>
+						</div>
+					</div>
+	
+					<div class="service_areas_wrap">
+						<div class="heading">
+							<h4>Service Areas</h4>
+						</div>
+						
+						<div class="service_areas">
+							<div class="area_map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232633.36269179682!2d90.82399055752151!3d24.35010498046716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3756bcb4fb21875f%3A0xf87604c5118c4b06!2sNikli%20Upazila!5e0!3m2!1sen!2sbd!4v1631185851149!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" width="" height=""></iframe>
+							</div>
+
+							<div class="all_areas">
+								<div class="area_input">
+									<input type="text" placeholder="Type Service Area and Click Add" class="form-control">
+									<button type="submit" class="btn gbtn">Add</button>
+								</div>
+		
+								<div class="added_areas">
+									<ul>
+										<li>Mundelein <a href="javascript:void(0)">&times;</a></li>
+										<li>Evanston <a href="javascript:void(0)">&times;</a></li>
+										<li>Chicago <a href="javascript:void(0)">&times;</a></li>
+										<li>Niles <a href="javascript:void(0)">&times;</a></li>
+										<li>Morton Grove <a href="javascript:void(0)">&times;</a></li>
+										<li>Libertyville <a href="javascript:void(0)">&times;</a></li>
+										<li>Des Plaines <a href="javascript:void(0)">&times;</a></li>
+										<li>Winnetka <a href="javascript:void(0)">&times;</a></li>
+										<li>Northbrook <a href="javascript:void(0)">&times;</a></li>
+										<li>Vernon Hills <a href="javascript:void(0)">&times;</a></li>
+										<li>Waukegan <a href="javascript:void(0)">&times;</a></li>
+										<li>Buffalo Grove <a href="javascript:void(0)">&times;</a></li>
+										<li>Elk Grove Village <a href="javascript:void(0)">&times;</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--===== Markup For "Home" Ends Here =====-->
+
+
+		<!--===== Markup For "Services" Starts From Here =====-->
+		<section class="dash_services_wrap" id="dashboardServices">
+			<div class="container">
+				<div class="dashboard_services">
+					<div class="dash_main_heading">
+						<h2>Services</h2>
+					</div>
+
+					<div class="all_services">
+						<div class="single_service">
+							<div class="create_new_service">
+								<a href="javascript:void(0)"><i class="fas fa-plus"></i></a>
+								<h4>Create a New Service</h4>
+							</div>
+						</div>
+
+						<div class="single_service">
+							<div class="service_image">
+								<img src="images/services_1.jpg" class="img-fluid" alt="" />
+							</div>
+							<div class="service_title_actions">
+								<div class="service_title">
+									<h4>Exterior Painting</h4>
+								</div>
+								<div class="service_ations">
+									<ul>
+										<li><a href="javascript:void(0)"><i class="fas fa-edit" title="Edit" data-toggle="tooltip"></i></a></li>
+										<li><a href="javascript:void(0)"><i class="fas fa-trash-alt" title="Delete" data-toggle="tooltip"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="single_service">
+							<div class="service_image">
+								<img src="images/services_2.jpg" class="img-fluid" alt="" />
+							</div>
+							<div class="service_title_actions">
+								<div class="service_title">
+									<h4>Wallpaper Removal</h4>
+								</div>
+								<div class="service_ations">
+									<ul>
+										<li><a href="javascript:void(0)"><i class="fas fa-edit" title="Edit" data-toggle="tooltip"></i></a></li>
+										<li><a href="javascript:void(0)"><i class="fas fa-trash-alt" title="Delete" data-toggle="tooltip"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="single_service">
+							<div class="service_image">
+								<img src="images/services_1.jpg" class="img-fluid" alt="" />
+							</div>
+							<div class="service_title_actions">
+								<div class="service_title">
+									<h4>Drywall Repair</h4>
+								</div>
+								<div class="service_ations">
+									<ul>
+										<li><a href="javascript:void(0)"><i class="fas fa-edit" title="Edit" data-toggle="tooltip"></i></a></li>
+										<li><a href="javascript:void(0)"><i class="fas fa-trash-alt" title="Delete" data-toggle="tooltip"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="single_service">
+							<div class="service_image">
+								<img src="images/services_2.jpg" class="img-fluid" alt="" />
+							</div>
+							<div class="service_title_actions">
+								<div class="service_title">
+									<h4>Power Washing</h4>
+								</div>
+								<div class="service_ations">
+									<ul>
+										<li><a href="javascript:void(0)"><i class="fas fa-edit" title="Edit" data-toggle="tooltip"></i></a></li>
+										<li><a href="javascript:void(0)"><i class="fas fa-trash-alt" title="Delete" data-toggle="tooltip"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="single_service">
+							<div class="service_image">
+								<img src="images/services_1.jpg" class="img-fluid" alt="" />
+							</div>
+							<div class="service_title_actions">
+								<div class="service_title">
+									<h4>Interior Painting</h4>
+								</div>
+								<div class="service_ations">
+									<ul>
+										<li><a href="javascript:void(0)"><i class="fas fa-edit" title="Edit" data-toggle="tooltip"></i></a></li>
+										<li><a href="javascript:void(0)"><i class="fas fa-trash-alt" title="Delete" data-toggle="tooltip"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="single_service">
+							<div class="service_image">
+								<img src="images/services_2.jpg" class="img-fluid" alt="" />
+							</div>
+							<div class="service_title_actions">
+								<div class="service_title">
+									<h4>Reconditioning Wood Siding</h4>
+								</div>
+								<div class="service_ations">
+									<ul>
+										<li><a href="javascript:void(0)"><i class="fas fa-edit" title="Edit" data-toggle="tooltip"></i></a></li>
+										<li><a href="javascript:void(0)"><i class="fas fa-trash-alt" title="Delete" data-toggle="tooltip"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="single_service">
+							<div class="service_image">
+								<img src="images/services_1.jpg" class="img-fluid" alt="" />
+							</div>
+							<div class="service_title_actions">
+								<div class="service_title">
+									<h4>Hardwood Flooring</h4>
+								</div>
+								<div class="service_ations">
+									<ul>
+										<li><a href="javascript:void(0)"><i class="fas fa-edit" title="Edit" data-toggle="tooltip"></i></a></li>
+										<li><a href="javascript:void(0)"><i class="fas fa-trash-alt" title="Delete" data-toggle="tooltip"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--===== Markup For "Services" Ends Here =====-->
+		
+
+		<!--===== Markup For "Portfolio" Starts From Here =====-->
+		<section class="dash_services_wrap dash_portfolio_wrap" id="dashboardPortfolio">
+			<div class="container">
+				<div class="dashboard_services">
+					<div class="dash_main_heading">
+						<h2>Portfolio</h2>
+					</div>
+
+					<div class="all_services">
+						<div class="single_service">
+							<div class="create_new_service">
+								<a href="javascript:void(0)"><i class="fas fa-plus"></i></a>
+								<h4>Add Portfolio</h4>
+							</div>
+						</div>
+
+						<div class="single_service">
+							<div class="service_image">
+								<img src="images/services_2.jpg" class="img-fluid" alt="" />
+							</div>
+							<div class="service_title_actions">
+								<div class="service_title">
+									<h4>Floor Installation</h4>
+								</div>
+								<div class="service_ations">
+									<ul>
+										<li><a href="javascript:void(0)"><i class="fas fa-edit" title="Edit" data-toggle="tooltip"></i></a></li>
+										<li><a href="javascript:void(0)"><i class="fas fa-trash-alt" title="Delete" data-toggle="tooltip"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="single_service">
+							<div class="service_image">
+								<img src="images/services_1.jpg" class="img-fluid" alt="" />
+							</div>
+							<div class="service_title_actions">
+								<div class="service_title">
+									<h4>Drywall Repair</h4>
+								</div>
+								<div class="service_ations">
+									<ul>
+										<li><a href="javascript:void(0)"><i class="fas fa-edit" title="Edit" data-toggle="tooltip"></i></a></li>
+										<li><a href="javascript:void(0)"><i class="fas fa-trash-alt" title="Delete" data-toggle="tooltip"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--===== Markup For "Portfolio" Ends Here =====-->
+
+
+		<!--===== Markup For "Reviews" Starts From Here =====-->
+		<div class="dash_reviews_wrap" id="dashboardReviews">
+			<div class="container">
+				<div class="dash_main_heading">
+					<h2>Reviews</h2>
+				</div>
+
+				<div class="dashboard_reviews">
+					<div class="reviews_actions">
+						<div class="shows_reviews grid_item">
+							<h4>Reviews <span class="star_rating_amount"><i class="fas fa-star"></i> 5.0</span> <span class="review_amount">(05)</span></h4>
+						</div>
+	
+						<div class="filter_review">
+							<form action="">
+								<div class="form-group">
+									<select name="" id="" class="form-control">
+										<option value="">Most Recent</option>
+										<option value="">Positive Reviews</option>
+										<option value="">Neutral Reviews</option>
+										<option value="">Negative Reviews</option>
+									</select>
+								</div>
+							</form>
+						</div>
+					</div>
+
+					<div class="cp_got_reviews">
+						<div class="single_review">
+							<div class="review_texts">
+								<div class="clients_review">
+									<div class="profile_info">
+										<div class="profile_pic">
+											<img src="images/member_profile_pic.jpg" class="img-fluid" alt="" />
+										</div>
+										<div class="profile_name">
+											<h6>Charlie Westervelt <span class="star_rating_amount"><i class="fas fa-star"></i> 5.0</span></h6>
+										</div>
+									</div>
+									<div class="provided_review">
+										<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+										<h6>15 Days Ago</h6>
+									</div>
+								</div>
+								<div class="comment_report_btns">
+									<ul>
+										<li><a class="gbtn gbtn_red_bdr" href="javascript:void(0)">Report</a></li>
+										<li><a class="gbtn gbtn_bdr" href="javascript:void(0)">Comment</a></li>
+									</ul>
+								</div>
+							</div>
+	
+							<div class="review_carousel owl_controls_inner">
+								<div class="owl-carousel">
+									<div class="reviews_media">
+										<a href="images/review_image.png" class="reviews_1" data-rel="reviews_1:theSlider">
+											<img src="images/review_image.png" class="img-fluid" alt="" />
+										</a>
+									</div>
+	
+									<div class="reviews_media">
+										<a href="images/review_image.png" class="reviews_1" data-rel="reviews_1:theSlider">
+											<img src="images/review_image.png" class="img-fluid" alt="" />
+										</a>
+									</div>
+	
+									<div class="reviews_media">
+										<a href="images/review_image.png" class="reviews_1" data-rel="reviews_1:theSlider">
+											<img src="images/review_image.png" class="img-fluid" alt="" />
+										</a>
+									</div>
+	
+									<div class="reviews_media">
+										<a href="images/review_image.png" class="reviews_1" data-rel="reviews_1:theSlider">
+											<img src="images/review_image.png" class="img-fluid" alt="" />
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+						<div class="single_review">
+							<div class="review_texts">
+								<div class="clients_review">
+									<div class="profile_info">
+										<div class="profile_pic">
+											<img src="images/member_profile_pic.jpg" class="img-fluid" alt="" />
+										</div>
+										<div class="profile_name">
+											<h6>Charlie Westervelt <span class="star_rating_amount"><i class="fas fa-star"></i> 5.0</span></h6>
+										</div>
+									</div>
+									<div class="provided_review">
+										<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+										<h6>15 Days Ago</h6>
+									</div>
+								</div>
+								<div class="review_reply">
+									<div class="profile_info">
+										<div class="profile_pic">
+											<img src="images/Chucks_Logo.png" class="img-fluid" alt="" />
+										</div>
+										<div class="profile_name">
+											<h6>Replay from Company:</h6>
+										</div>
+									</div>
+									<div class="replied_review">
+										<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita.</p>
+									</div>
+								</div>
+								<div class="comment_report_btns">
+									<ul>
+										<li><a class="gbtn gbtn_red_bdr" href="javascript:void(0)">Report</a></li>
+										<li><a class="gbtn gbtn_bdr" href="javascript:void(0)">Comment</a></li>
+									</ul>
+								</div>
+							</div>
+	
+							<div class="review_carousel owl_controls_inner">
+								<div class="owl-carousel">
+									<div class="reviews_media">
+										<a href="images/review_image.png" class="reviews_2" data-rel="reviews_2:theSlider">
+											<img src="images/review_image.png" class="img-fluid" alt="" />
+										</a>
+									</div>
+	
+									<div class="reviews_media">
+										<a href="images/review_image.png" class="reviews_2" data-rel="reviews_2:theSlider">
+											<img src="images/review_image.png" class="img-fluid" alt="" />
+										</a>
+									</div>
+	
+									<div class="reviews_media">
+										<a href="images/review_image.png" class="reviews_2" data-rel="reviews_2:theSlider">
+											<img src="images/review_image.png" class="img-fluid" alt="" />
+										</a>
+									</div>
+	
+									<div class="reviews_media">
+										<a href="images/review_image.png" class="reviews_2" data-rel="reviews_2:theSlider">
+											<img src="images/review_image.png" class="img-fluid" alt="" />
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+						<div class="single_review">
+							<div class="review_texts">
+								<div class="clients_review">
+									<div class="profile_info">
+										<div class="profile_pic">
+											<img src="images/member_profile_pic.jpg" class="img-fluid" alt="" />
+										</div>
+										<div class="profile_name">
+											<h6>Charlie Westervelt <span class="star_rating_amount"><i class="fas fa-star"></i> 5.0</span></h6>
+										</div>
+									</div>
+									<div class="provided_review">
+										<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+										<h6>15 Days Ago</h6>
+									</div>
+								</div>
+								<div class="review_reply">
+									<div class="profile_info">
+										<div class="profile_pic">
+											<img src="images/Chucks_Logo.png" class="img-fluid" alt="" />
+										</div>
+										<div class="profile_name">
+											<h6>Replay from Company:</h6>
+										</div>
+									</div>
+									<div class="replied_review">
+										<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita.</p>
+									</div>
+								</div>
+								<div class="comment_report_btns">
+									<ul>
+										<li><a class="gbtn gbtn_red_bdr" href="javascript:void(0)">Report</a></li>
+										<li><a class="gbtn gbtn_bdr" href="javascript:void(0)">Comment</a></li>
+									</ul>
+								</div>
+							</div>
+	
+							<div class="review_carousel owl_controls_inner">
+								<div class="owl-carousel">
+									<div class="reviews_media">
+										<a href="images/review_image.png" class="reviews_3" data-rel="reviews_3:theSlider">
+											<img src="images/review_image.png" class="img-fluid" alt="" />
+										</a>
+									</div>
+	
+									<div class="reviews_media">
+										<a href="images/review_image.png" class="reviews_3" data-rel="reviews_3:theSlider">
+											<img src="images/review_image.png" class="img-fluid" alt="" />
+										</a>
+									</div>
+	
+									<div class="reviews_media">
+										<a href="images/review_image.png" class="reviews_3" data-rel="reviews_3:theSlider">
+											<img src="images/review_image.png" class="img-fluid" alt="" />
+										</a>
+									</div>
+	
+									<div class="reviews_media">
+										<a href="images/review_image.png" class="reviews_3" data-rel="reviews_3:theSlider">
+											<img src="images/review_image.png" class="img-fluid" alt="" />
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="see_more_button">
+							<a class="gbtn" href="javascript:void(0)">+ See More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--===== Markup For "Reviews" Ends Here =====-->
+		
+
+		<!--===== Markup For "State License" Starts From Here =====-->
+		<div class="modal fade legal_doc_modal legal_doc_upload_modal" id="uploadLicensedCertificate">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="certificate_wrap">
+							<a href="javascript:void(0)" class="close" data-dismiss="modal">&times;</a>
+
+							<form action="">
+								<div class="the_certificate licensed_certificate">
+									<div class="certificate_texts">
+										<h1>State License</h1>
+										
+										<div class="form_row">
+											<div class="single_certificate_info">
+												<label for="">State:</label>
+												<input type="text" placeholder="" class="form-control">
+											</div>
+	
+											<div class="single_certificate_info">
+												<label for="">License #:</label>
+												<input type="text" placeholder="" class="form-control">
+											</div>
+										</div>
+
+										<div class="single_certificate_info">
+											<label for="">Expiration:</label>
+											<input type="date" placeholder="" class="form-control">
+										</div>
+									</div>
+	
+									<div class="certificate_image">
+										<div class="attach_file">
+											<label class="attachment">
+												<div class="texts">
+													<i class="fas fa-cloud-upload-alt"></i>
+													<span>Upload Certificate</span>
+												</div>
+												<input class="file_attachment" id="" name="" type="file">
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="submit_button">
+									<button type="submit" class="btn gbtn">Upload Certificate</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--===== Markup For "State License" Ends Here =====-->
+
+
+		<!--===== Markup For "Insurance Certificate" Starts From Here =====-->
+		<div class="modal fade legal_doc_modal legal_doc_upload_modal" id="uploadInsuranceCertificate">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="certificate_wrap">
+							<a href="javascript:void(0)" class="close" data-dismiss="modal">&times;</a>
+
+							<form action="">
+								<div class="the_certificate licensed_certificate">
+									<div class="certificate_texts">
+										<h1>Insurance</h1>
+										
+										<div class="form_row">
+											<div class="single_certificate_info">
+												<label for="">State:</label>
+												<input type="text" placeholder="" class="form-control">
+											</div>
+	
+											<div class="single_certificate_info">
+												<label for="">Company:</label>
+												<input type="text" placeholder="" class="form-control">
+											</div>
+										</div>
+
+										<div class="form_row">
+											<div class="single_certificate_info">
+												<label for="">Insurance #:</label>
+												<input type="text" placeholder="" class="form-control">
+											</div>
+	
+											<div class="single_certificate_info">
+												<label for="">Covered:</label>
+												<input type="text" placeholder="" class="form-control">
+											</div>
+										</div>
+
+										<div class="single_certificate_info">
+											<label for="">Expiration:</label>
+											<input type="date" placeholder="" class="form-control">
+										</div>
+									</div>
+	
+									<div class="certificate_image">
+										<div class="attach_file">
+											<label class="attachment">
+												<div class="texts">
+													<i class="fas fa-cloud-upload-alt"></i>
+													<span>Upload Certificate</span>
+												</div>
+												<input class="file_attachment" id="" name="" type="file">
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="submit_button">
+									<button type="submit" class="btn gbtn">Upload Certificate</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--===== Markup For "Insurance Certificate" Ends Here =====-->
+
+
+		<!--===== Markup For "Bonded Certificate" Starts From Here =====-->
+		<div class="modal fade legal_doc_modal legal_doc_upload_modal" id="uploadBondedCertificate">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="certificate_wrap">
+							<a href="javascript:void(0)" class="close" data-dismiss="modal">&times;</a>
+
+							<form action="">
+								<div class="the_certificate licensed_certificate">
+									<div class="certificate_texts">
+										<h1>Bonded</h1>
+										
+										<div class="single_certificate_info">
+											<label for="">State:</label>
+											<input type="text" placeholder="" class="form-control">
+										</div>
+
+										<div class="single_certificate_info">
+											<label for="">Info:</label>
+											<textarea name="" id="" cols="30" rows="3" class="form-control"></textarea>
+										</div>
+									</div>
+	
+									<div class="certificate_image">
+										<div class="attach_file">
+											<label class="attachment">
+												<div class="texts">
+													<i class="fas fa-cloud-upload-alt"></i>
+													<span>Upload Certificate</span>
+												</div>
+												<input class="file_attachment" id="" name="" type="file">
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="submit_button">
+									<button type="submit" class="btn gbtn">Upload Certificate</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--===== Markup For "Bonded Certificate" Ends Here =====-->
+		
+		
+		<!--===== Markup For "" Starts From Here =====-->
+		<!--===== Markup For "" Ends Here =====-->
+		
+		
+		<!--jQuery Main Libraty Latest Version-->
+		<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+		<!--Bootstrap v4.5.3 JS File-->
+		<script type="text/javascript" src="js/popper.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/pignose.calendar.full.min.js"></script>
+		<!--Owl Carousel JS File-->
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<!--Lightcase JS File-->
+		<script type="text/javascript" src="js/lightcase.js"></script>
+		<!--Custom Script JS File-->
+		<script type="text/javascript" src="js/custom.js"></script>
+		<!--Custom JavaScript-->
+		<script type="text/javascript">
+		// Initialize Calendar
+		$(function() {
+			$('.calendar').pignoseCalendar();
+		});
+
+		//For Smothly Scroll In My Page	Start		
+		$(function() {
+			var topoffset = 60; //variable for menu height
+
+			//Use smooth scrolling when clicking on navigation
+			$('a[href*="#"]').click(function() {
+			if (location.pathname.replace(/^\//,'') === 
+				this.pathname.replace(/^\//,'') && 
+				location.hostname === this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if (target.length) {
+				$('html,body').animate({
+					scrollTop: target.offset().top-topoffset
+				}, 1000);
+				return false;
+				} //target.length
+			} //click function
+			}); //smooth scrolling
+
+		});
+
+		// Code For Reviews Media Popup Slider Starts
+		$(document).ready(function(){
+			var lightcase = $(".reviews_1");
+			if (lightcase.length) {
+				$('a[data-rel^=reviews_1]').lightcase({
+					transition: 'elastic',
+					video: {
+						width: 760,
+						height: 'auto',
+						poster: '',
+						preload: 'auto',
+						controls: true,
+						autobuffer: true,
+						autoplay: false,
+						loop: false,
+					},
+					showSequenceInfo: true,
+					showTitle: false,
+				});
+			}
+			
+			var lightcase = $(".reviews_2");
+			if (lightcase.length) {
+				$('a[data-rel^=reviews_2]').lightcase({
+					transition: 'elastic',
+					video: {
+						width: 760,
+						height: 'auto',
+						poster: '',
+						preload: 'auto',
+						controls: true,
+						autobuffer: true,
+						autoplay: false,
+						loop: false,
+					},
+					showSequenceInfo: true,
+					showTitle: false,
+				});
+			}
+			
+			var lightcase = $(".reviews_3");
+			if (lightcase.length) {
+				$('a[data-rel^=reviews_3]').lightcase({
+					transition: 'elastic',
+					video: {
+						width: 760,
+						height: 'auto',
+						poster: '',
+						preload: 'auto',
+						controls: true,
+						autobuffer: true,
+						autoplay: false,
+						loop: false,
+					},
+					showSequenceInfo: true,
+					showTitle: false,
+				});
+			}
+			
+			var lightcase = $(".reviews_4");
+			if (lightcase.length) {
+				$('a[data-rel^=reviews_4]').lightcase({
+					transition: 'elastic',
+					video: {
+						width: 760,
+						height: 'auto',
+						poster: '',
+						preload: 'auto',
+						controls: true,
+						autobuffer: true,
+						autoplay: false,
+						loop: false,
+					},
+					showSequenceInfo: true,
+					showTitle: false,
+				});
+			}
+
+			var lightcase = $(".reviews_5");
+			if (lightcase.length) {
+				$('a[data-rel^=reviews_5]').lightcase({
+					transition: 'elastic',
+					video: {
+						width: 760,
+						height: 'auto',
+						poster: '',
+						preload: 'auto',
+						controls: true,
+						autobuffer: true,
+						autoplay: false,
+						loop: false,
+					},
+					showSequenceInfo: true,
+					showTitle: false,
+				});
+			}
+		});
+		// Code For Reviews Media Popup Slider Ends
+		</script>
+			
+	</body>
+
+</html>
